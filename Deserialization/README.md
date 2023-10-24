@@ -136,7 +136,7 @@ base64 -w0 payload
 
 ## Ruby désérialisation
 
-Il existe un gadget chain pour les versions de Ruby entre 2.0 et 2.5.
+Il existe un gadget chain universel pour Ruby :
 
 ```ruby
 Gem::SpecFetcher
