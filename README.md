@@ -5,4 +5,5 @@
 - Hackvertor
 - InQL
 - Copy As Python-Requests
-- Content-Type Converter
+- Content Type Converter
+- JWT Editor
