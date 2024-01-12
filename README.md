@@ -9,10 +9,11 @@
 
 # Extensions
 
-- Turbo Intruder
-- Param Miner
-- Hackvertor
-- InQL
-- Copy As Python-Requests
-- Content Type Converter
-- JWT Editor
+- [Turbo Intruder](https://portswigger.net/bappstore/9abaa233088242e8be252cd4ff534988)
+- [Param Miner](https://portswigger.net/bappstore/17d2949a985c4b7ca092728dba871943)
+- [Hackvertor](https://portswigger.net/bappstore/65033cbd2c344fbabe57ac060b5dd100)
+- [InQL](https://portswigger.net/bappstore/296e9a0730384be4b2fffef7b4e19b1f)
+- [Copy As Python-Requests](https://portswigger.net/bappstore/b324647b6efa4b6a8f346389730df160)
+- [Content Type Converter](https://portswigger.net/bappstore/db57ecbe2cb7446292a94aa6181c9278)
+- [JWT Editor](https://portswigger.net/bappstore/26aaa5ded2f74beea19e2ed8345a93dd)
+- [HTTP Request Smuggler](https://portswigger.net/bappstore/aaaa60ef945341e8a450217a54a11646)
